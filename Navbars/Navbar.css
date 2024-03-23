@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Bruno+Ace+SC&family=Righteous&display=swap');
+#ji{
+    gap: 20px;
+}
+.nav-link{
+    color:white;
+    font-family: 'Righteous',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    gap: 20px;
+}
+/* #q::after{
+    content: "";
+    position: absolute;
+   margin-left: -50px;
+  margin-top: 30px;
+    width: 0;
+    height: 2px;
+    gap: 20px;
+    background-color: white;
+}*/
+/* #q,#w,#e,#r{
+    transition : 1s;
+}
+#q,#w,#e,#r:hover{
+    transition : 1s;
+    transform :skewX(-10deg);
+}  */
+#r{
+    margin-right: 20px;
+}
+#q,#w,#e,#r{
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+}
+.nav-link:hover{
+    color:darkgrey;
+    cursor: pointer;
+}
+#navs{
+    position: relative;
+}
+#hooo{
+    position: absolute;
+    z-index: 20000;
+}
+#img{
+    padding: 2px;
+}
+#bar{
+    width: 300px !important;
+    margin-left: 230px !important;
+   position: relative;
+}
+#kgf{
+    padding: 10px;
+}
+
+#go{
+    padding: 10px;
+}
+#navs{
+    height: 90px;
+    background-color: #72DE33;
+    border-bottom: 1px solid goldenrod;
+    z-index: 20000;
+    position: relative;
+}
+.nav-header{
+    height: 110px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-color:  #1B1464 !important;
+}
+#kl{
+    margin-left: -30px;
+}
+#ok{
+    margin-left: -40px !important;
+}
+.nav-item{
+    padding: 10px;
+}
+#img1{
+    position: absolute;
+    font-family: 'Bruno Ace SC',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 42px;
+    margin-left: -65px;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+.waviy {
+    position: relative;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+#map{
+    height: 40px;
+    width: 40px;
+    margin-left: -40px;
+}
+.anime{
+    height: 48px;
+    width: 100px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: white;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 35px;
+}
+.border{
+    height: 2cqi;
+    width: 100px !important;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 42%, rgba(0,39,255,1) 63%);
+animation-name: rotate;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-play-state: paused;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);   
+    }
+}
+#sign{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 37px;
+    width: 86px;
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #72DE33;
+    border-radius: 100px;
+    border: none;
+    text-decoration: none;
+    font-family: 'Bruno Ace SC',Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.anime:hover .border{
+    animation-play-state: running;
+}
+#zz{
+    width: 70px;
+    height: 70px;
+    border: none;
+    margin-top: -20px;
+    background-color: unset;
+}
+#i{
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    margin-left: 480px;
+    cursor: pointer;
+}
+@media (max-width: 576px) { 
+    #img1{
+        font-family: 'Bruno Ace SC',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 19px;
+        margin-left: 2px !important;
+        margin-top: -10px;
+        color: white;
+        letter-spacing: 1px;
+        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+                 position: absolute;
+    }
+
+    #bar{
+        position: relative;
+        width: 125px !important;
+        height: 40px;
+        margin-left: 135px !important;
+        margin-top: -10px;
+    }
+
+    .anime{
+        height: 38px;
+        width: 90px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        background-color: white;
+        border-radius: 100px;
+        overflow: hidden;
+        position: relative;
+        margin-left: 35px;
+    }
+    .border{
+        height: 2cqi;
+        width: 90px !important;
+        background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 42%, rgba(0,39,255,1) 63%);
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    }
+    
+    @keyframes rotate{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);   
+        }
+    }
+    #sign{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 27px;
+        width: 76px;
+        background-color: white;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: #72DE33;
+        border-radius: 100px;
+        border: none;
+        text-decoration: none;
+        font-family: 'Bruno Ace SC',Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .anime:hover .border{
+        animation-play-state: running;
+    }
+}
+
+@media (min-width: 576px) { 
+   
+    
+}

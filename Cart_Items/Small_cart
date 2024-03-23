@@ -1,0 +1,44 @@
+
+function Small_cart(){
+    return(
+        <>
+          <div className='cart-box'>
+                            <img src={img} alt='pic' id='no'/>
+
+                            <div className='cart-detail'>
+                                <div className='cart-food-title'>hello</div>
+
+                                <div className='price-box'>
+                                <div className='cart-price'>Rs 80/-</div>
+                                <div className='cart-amt'>Rs 80/-</div>
+                                </div>
+
+                                <input type='number' value='1' className='form-control' id='cart-quantity'/>
+                            </div>
+
+                            <BsFillTrashFill name='trash' className='cart-remove' onClick={()=>setclose(false)}/>
+                            
+                        </div>
+
+                    
+                    
+                    <div className='cart-box'>
+                            <img src={img} alt='pic' id='no'/>
+
+                            <div className='cart-detail'>
+                                <div className='cart-food-title'>hello</div>
+
+                                <div className='price-box'>
+                                <div className='cart-price'>Rs 80/-</div>
+                                <div className='cart-amt'>Rs 80/-</div>
+                                </div>
+
+                                <input type='number' value='1' className='form-control' id='cart-quantity'/>
+                            </div>
+
+                            <BsFillTrashFill name='trash' className='cart-remove' onClick={()=>{alert(1111)}}/>
+                        </div>
+        </>
+    )
+
+    }

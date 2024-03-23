@@ -1,0 +1,23 @@
+#love{
+    margin-top:10px;
+    margin-left: 23px;
+}
+#tom{
+    color: white;
+}
+.kkk{
+    height: 300px;
+    width: 100vw;
+}
+#lll{
+    height: 300px !important;
+    width: 100vw;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+   
+}
+#ooo{
+   right: 0;
+   margin-top: 10px;
+}

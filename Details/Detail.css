@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Plaster&display=swap');
+#header{
+    border: 1px solid black;
+    background-color: aliceblue !important;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+#head{
+    width: 100vw;
+    height: 55px;
+    display: flex;
+}
+#headpic{
+    height: 50px;
+    width: 140px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 10px;
+    margin-top: 2px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+#headpara{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    font-family: 'Courgette','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#boxes{
+    width: 60px;
+    height: 470px;
+    margin-left: 10px;
+    margin-top: 20px;
+    column-gap: 10px;
+}
+#singlep{
+    width: 60px;
+    height: 55px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#sp{
+    width: 57px;
+    height: 52px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+#sp:hover{
+    cursor: pointer;
+}
+.zoom{
+    width: 450px;
+    height: 450px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    overflow: hidden;
+}
+.mainimg{
+    display: flex;
+    transition: all 0.5s ease;
+}
+#zoom1{
+    width: 448px;
+    height: 448px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: block;
+}
+#india{
+    color: #72DE33;
+    font-family: 'Nosifer',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    cursor: pointer;
+    font-size: 15px;
+}
+#emi{
+    width: 508px;
+    height: 533px;
+   border-radius: 20px;
+    background-color: #72DE33;
+    font-family: 'Courgette','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#do,#pay,#card,#other{
+    font-family: 'Nosifer',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    color: white !important;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+}
+#do{
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+#pay{
+    padding: 10px;
+  font-size: 12px;
+  margin-left: 15px;
+  
+}
+#card{
+    padding: 10px;
+  font-size: 12px;
+}
+#other{
+    padding: 10px;
+  font-size: 12px;
+}
+#box{
+    max-height: 415px;
+    width: 480px;
+    border:1px solid white ;
+    margin-left: 15px;
+    overflow-y: scroll; 
+    user-select: none;
+    cursor: pointer;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 6px;
+}
+#mo{
+    height: 43px;
+    width: 47px;
+    border:1px solid #72DE33 ;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#some{
+    display: flex;
+    font-size: 17px;
+    gap: 10px;
+    color: black;
+    font-family: 'Nosifer',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+
+}
+.te{
+  text-align: justify;
+  color: black;
+}
+.tex{
+    font-family: 'Nosifer',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+   color: #72DE33;
+   font-size: 27px;
+   margin-top: 33px;
+   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+   0px 8px 13px rgba(0,0,0,0.1),
+   0px 18px 23px rgba(0,0,0,0.1);
+}
+#los{
+    margin-left: 100px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.d{
+    font-size: 18px;
+   
+}
+#n{
+    display: block;
+    z-index: 2000;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    black 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+#aipara{
+    color: gray!important;
+    z-index: 2000;
+    position: absolute;
+}
+.ai{
+    padding: 10px;
+}
+#aihead{
+     font-family: 'Nosifer',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#text_box{
+    position: absolute;
+    margin-top: -10px;
+    width: 495px;
+    height: 267px;
+    margin-left: -10px;
+    overflow: hidden;
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+    scrollbar-color: black;
+    scroll-margin-left: 10px;
+    scroll-behavior: smooth;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+   font-family: 'Paytone One','Plaster','Times New Roman', Times, serif;
+   letter-spacing: 1px;
+   font-weight: 100;
+   color: grey;
+}
+#form{
+    position: absolute;
+    height: 38px;
+    width:330px !important; 
+    margin-left: 130px;
+   font-family: 'Paytone One','Plaster','Times New Roman', Times, serif;
+   letter-spacing: 1px;
+   font-weight: 100;
+   border: 2px solid chartreuse;
+}
+#pra{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#tab{
+ 
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.tab{
+ 
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#para{
+    z-index: 20000;
+    display: block;
+}

@@ -1,0 +1,67 @@
+.bird{
+    height: 400px;
+    width: 700px;
+    border: 1px solid black;
+    margin-left: 290px;
+    margin-top: 50px;
+    border-radius: 20px;
+    z-index: 2000;
+    position: relative;
+}
+.round{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+#foo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -80px !important;
+}
+#bbb{
+  
+    margin-top: 50px;
+}
+#file{
+    display: flex;
+    margin-top: 30px;
+    margin-left: -30px !important;
+}
+.video{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: -320px;
+    border-radius: 50%;
+    margin-left: 370px;
+}
+#sup{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#hoone{
+    margin-top: 80px;
+    position: relative;
+    margin-left: 60px;
+}
+#hobut{
+    position: absolute;
+    margin-left: 520px;
+    display: flex;
+    margin-top: -40px;
+}
+#hhh{
+    position: absolute;
+    margin-top: -188px;
+    z-index: 100 !important;
+}

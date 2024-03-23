@@ -1,0 +1,113 @@
+.cart{
+    height: 450px;
+    width: 900px;
+    border: 2px solid #72DE33;
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: hidden;
+   background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 230px;
+    margin-top: 40px;
+    z-index: 10 !important;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.cart-title{
+    font-family: 'Bruno Ace SC',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    margin-left: 320px;
+    color: #72DE33;
+    letter-spacing: 1px;
+}
+.cart-detail{
+    display: grid;
+    row-gap: 0.5rem;
+    margin-left: 10px;
+}
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    border-bottom: 2px solid greenyellow;
+    padding-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+#no{
+    height: 120px;
+    width: 170px !important;
+    padding: 5px;
+    border: 1px solid #72DE33;
+    margin-top: 25px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#wp{
+    width: 200px !important;
+    font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 30px;
+    color: #72DE33;
+    
+}
+.cart-remove{
+    height: 40px;
+    width: 40px;
+    color: red;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+.price-box{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-price{
+    position: relative;
+    width: 200px;
+    color: black;
+    font-family: 'Bruno Ace SC',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.cart-amt{
+    position: relative;
+    width: 200px;
+    color: red;
+    margin-top: 105px;
+    margin-left: -35px;
+    font-family: 'Bruno Ace SC',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+.total{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+.cart-total{
+    font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: #72DE33;
+    margin-right: 10px;   
+}
+#bee{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    color: red;
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+#joke{
+    margin-left: 50px;
+}
+#cart-quantity{
+    position: absolute;
+    width: 200px !important;
+    height: 40px;
+    margin-left: 500px;
+    margin-top: 30px;
+}

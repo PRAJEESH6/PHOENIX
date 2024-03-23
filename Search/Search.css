@@ -1,0 +1,10 @@
+#p1{
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border: 1px solid black;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}

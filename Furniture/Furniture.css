@@ -1,0 +1,17 @@
+#poo{
+    height: 1000px;
+}
+#na{
+    color: red;
+    padding: 10px;margin-top: 10px;
+}
+#sup{
+    border: 1px solid blue;
+}
+#pr{
+    color: red;
+}
+#des{
+    color: blue;
+    text-align: justify;
+}
