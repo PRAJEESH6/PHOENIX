@@ -1,0 +1,20 @@
+.container{
+    position: relative;
+    margin-top: 20px;
+}
+
+.see{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 710px;
+    padding: 3px;
+}
+#pet{
+    margin-top: 20px;
+    margin-left: 330px;
+    width: 600px;
+    height: 40px;
+    font-family: 'Black Ops One';
+}
