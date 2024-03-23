@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&family=Prompt:ital,wght@1,500&display=swap');
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden !important;
+}
+.back{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden !important;
+}
+#malar{
+    height: 530px;
+    width: 800px;
+    position: relative;
+    margin-left: -120px;
+}
+#mer{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: -50px;
+    height: 900px;
+    width: 1000px;
+}
+#main101,#main116,#main7,#main8,#main9,#main10,#mainq,#main11a{
+    color: #72DE33;
+    font-size: 45px;
+    font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 150px;
+    margin-left:30px ;
+    text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05);
+}
+#main114{
+    color: #72DE33;
+    font-size: 45px;
+    font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 150px;
+    margin-left:30px ;
+    text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05);
+}
+#main1102,#main1126,#main17,#main18,#main19,#main110,#main1q,#main112a{
+    color: #72DE33;
+    font-size: 42px;
+    font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 60px;
+    text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05);
+}
+#main1124{
+    color: #72DE33;
+    font-size: 42px;
+    font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 60px;
+    text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05);
+}
+#foos{
+    margin-left: 230px !important;
+}
+#det101,#det116,#det7,#det8,#det9,#det10,#detq,#det11a{
+    width: 550px;
+    text-align: justify;
+    font-size: 28px;
+    font-family: 'Tangerine','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-top: 30px;
+     margin-left: 30px;
+     color: blueviolet;
+     color: rgba(0,0,0,0.6);
+     text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                      0px -5px 35px rgba(255,255,255,0.3);
+}
+#det114{
+    width: 550px;
+    text-align: justify;
+    font-size: 28px;
+    font-family: 'Tangerine','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-top: 30px;
+     margin-left: 30px;
+     color: blueviolet;
+     color: rgba(0,0,0,0.6);
+     text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                      0px -5px 35px rgba(255,255,255,0.3);
+}
+#pizza{
+    margin-top: 180px;
+    margin-left: 370px;
+    font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.animes101,.animes116,.animes7,.animes8,.animes9,.animes10,.animesq,.animes11a{
+    height: 65px;
+    width: 206px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: white;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.animes114{
+    height: 65px;
+    width: 206px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: white;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.borders{
+    height: 35px;
+    width: 220px !important;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 42%, rgba(0,39,255,1) 63%);
+animation-name: rotate;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-play-state: paused;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);   
+    }
+}
+#fooss{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 55px;
+    width: 196px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #72DE33;
+    border-radius: 100px;
+    border: none;
+    text-decoration: none;
+    font-family: 'Bruno Ace SC',Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+.animes:hover .borders{
+    animation-play-state: running;
+}
+/* @media (max-width : 576px) {
+
+    body{
+        overflow-x: hidden !important;
+    }
+    #malar{
+        height: 260px;
+        width: 400px;
+        position: relative;
+        margin-left: -270px;
+        margin-top: 100px;
+    }
+   
+    #mer{
+        position: absolute;
+        margin-left: -270px;
+        margin-top: -50px;
+        height: 450px;
+        width: 500px;
+        margin-top: 30px;
+    }
+    #mer14{
+        position: absolute;
+        margin-left: -270px;
+        margin-top: -50px;
+        height: 450px;
+        width: 500px;
+        margin-top: 30px;
+    }
+
+    #main11{
+        width: 300px;
+        color: black;
+        font-size: 22px;
+        font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 30px;
+        margin-left:50px ;
+        text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                     10px 20px 5px rgba(0,0,0,0.05),
+                     -10px 20px 5px rgba(0,0,0,0.05);
+    }
+    #main116{
+        width: 300px;
+        color: black;
+        font-size: 22px;
+        font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 30px;
+        margin-left:50px ;
+        text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                     10px 20px 5px rgba(0,0,0,0.05),
+                     -10px 20px 5px rgba(0,0,0,0.05);
+    }
+    #main114{
+        width: 300px;
+        color: black;
+        font-size: 22px;
+        font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 30px;
+        margin-left:50px ;
+        text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                     10px 20px 5px rgba(0,0,0,0.05),
+                     -10px 20px 5px rgba(0,0,0,0.05);
+    }
+
+    #main112{
+        position:absolute;
+        color: black;
+        font-size: 15px;
+        margin-left:100px ;
+        font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                     10px 20px 5px rgba(0,0,0,0.05),
+                     -10px 20px 5px rgba(0,0,0,0.05);
+                    
+    }
+    #main1126{
+        position:absolute;
+        color: black;
+        font-size: 15px;
+        margin-left:100px ;
+        font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                     10px 20px 5px rgba(0,0,0,0.05),
+                     -10px 20px 5px rgba(0,0,0,0.05);
+                    
+    }
+    #main1124{
+        position:absolute;
+        color: black;
+        font-size: 15px;
+        margin-left:100px ;
+        font-family: 'Playfair Display','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                     10px 20px 5px rgba(0,0,0,0.05),
+                     -10px 20px 5px rgba(0,0,0,0.05);
+                    margin-top: 60px;
+    }
+
+    #det11{
+        width: 300px;
+        text-align: justify;
+        font-size: 22px;
+        font-family: 'Tangerine','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         margin-top: 320px;
+         margin-left: 30px;
+         color: blueviolet;
+         color: rgba(0,0,0,0.6);
+         text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                          0px -5px 35px rgba(255,255,255,0.3);
+    }
+    #det116{
+        width: 300px;
+        text-align: justify;
+        font-size: 22px;
+        font-family: 'Tangerine','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         margin-top: 320px;
+         margin-left: 30px;
+         color: blueviolet;
+         color: rgba(0,0,0,0.6);
+         text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                          0px -5px 35px rgba(255,255,255,0.3);
+    }
+    #det114{
+        width: 300px;
+        text-align: justify;
+        font-size: 22px;
+        font-family: 'Tangerine','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         margin-top: 390px;
+         margin-left: 30px;
+         color: blueviolet;
+         color: rgba(0,0,0,0.6);
+         text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                          0px -5px 35px rgba(255,255,255,0.3);
+    }
+    .animes11{
+        height: 65px;
+        width: 206px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        background-color: white;
+        border-radius: 100px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .animes116{
+        height: 65px;
+        width: 206px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        background-color: white;
+        border-radius: 100px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .animes114{
+        height: 65px;
+        width: 206px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        background-color: white;
+        border-radius: 100px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+} */
